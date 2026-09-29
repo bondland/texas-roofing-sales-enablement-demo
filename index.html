@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roof Damage & Insurance | Inspection & Next Steps | Texas Roofing</title>
+    <meta name="description" content="Professional Texas roofing sales-enablement concept. Clear inspection, documentation, and next steps after storm damage.">
+    
+        <!-- Favicon: Letter "A" with theme support -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cstyle%3E.letter%7Bfont-family:system-ui,-apple-system,'Segoe UI',Roboto,Inter,sans-serif;font-weight:700;font-size:68px;fill:%231c2c48%7D%40media(prefers-color-scheme:dark)%7B.letter%7Bfill:%2380b918%7D%7D%3C/style%3E%3Ctext x='50' y='54' text-anchor='middle' dominant-baseline='central' class='letter'%3EA%3C/text%3E%3C/svg%3E">
+    
+    <style>
+        :root {
+            --bg-dark: #0f1f1a;
+            --bg-dark-2: #142822;
+            --bg-cream: #faf9f7;
+            --bg-cream-2: #f5f3f0;
+            --bg-white: #ffffff;
+            --gold: #c9a86a;
+            --gold-light: #d4b87a;
+            --text-primary: #0f1f1a;
+            --text-secondary: #4a4a48;
+            --text-muted: #6b7d76;
+            --border-dark: rgba(244, 239, 233, 0.1);
+            --border-cream: rgba(15, 31, 26, 0.1);
+            --success: #059669;
+            --warning: #d97706;
+            --warning-light: #fffbeb;
+            --warning-border: #fde68a;
+            --focus-ring: #c9a86a;
+            --radius: 12px;
+            --radius-lg: 20px;
+            --radius-pill: 999px;
+            --ease-kinetic: cubic-bezier(0.19, 1, 0.22, 1);
+            --nav-height: 70px;
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html { scroll-behavior: smooth; }
+        section { scroll-margin-top: 80px; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-cream);
+            color: var(--text-primary);
+            font-size: 18px;
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            -webkit-font-smoothing: antialiased;
+        }
+        body.menu-open { overflow: hidden; }
+
+        h1, h2, h3, h4 {
+            color: inherit;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            font-weight: 600;
+        }
+
+        :focus-visible {
+            outline: 3px solid var(--focus-ring);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            html { scroll-behavior: auto; }
+            .reveal, .kinetic-reveal {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+        }
+
+        /* ===== NAVIGATION ===== */
+        .demo-banner {
+            background: var(--bg-dark);
+            color: var(--bg-cream);
+            padding: 10px 24px;
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 500;
+            position: relative;
+            z-index: 60;
+            letter-spacing: 0.02em;
+        }
+        .demo-banner strong { color: var(--gold); font-weight: 600; }
+
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 48px;
+            height: var(--nav-height);
+            background: rgba(250, 249, 247, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-cream);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-logo { font-size: 1.5rem; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        .logo-texas { color: var(--gold); }
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text-primary); }
+        .nav-cta {
+            background: var(--bg-dark);
+            color: var(--bg-cream) !important;
+            padding: 12px 24px;
+            border-radius: var(--radius-pill);
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.3s var(--ease-kinetic);
+        }
+        .nav-cta:hover { background: var(--bg-dark-2); transform: translateY(-2px); }
+
+        /* ===== HAMBURGER MENU ===== */
+        .menu-toggle {
+            display: none;
+            width: 44px;
+            height: 44px;
+            background: transparent;
+            border: 1px solid var(--border-cream);
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+            padding: 0;
+            z-index: 110;
+        }
+        .menu-toggle span {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 2px;
+            background: var(--text-primary);
+            border-radius: 2px;
+            transition: all 0.3s var(--ease-kinetic);
+        }
+        .menu-toggle span:nth-child(1) { top: 14px; }
+        .menu-toggle span:nth-child(2) { top: 21px; }
+        .menu-toggle span:nth-child(3) { top: 28px; }
+        .menu-toggle.active span:nth-child(1) { top: 21px; transform: translateX(-50%) rotate(45deg); background: var(--gold); }
+        .menu-toggle.active span:nth-child(2) { opacity: 0; }
+        .menu-toggle.active span:nth-child(3) { top: 21px; transform: translateX(-50%) rotate(-45deg); background: var(--gold); }
+        .menu-toggle.active { border-color: var(--gold); background: var(--bg-dark); }
+
+        /* ===== MOBILE MENU ===== */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: var(--bg-dark);
+            z-index: 90;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 32px 40px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s var(--ease-kinetic);
+        }
+        .mobile-menu.active { opacity: 1; visibility: visible; }
+        .mobile-menu nav { display: flex; flex-direction: column; gap: 0; width: 100%; max-width: 400px; }
+        .mobile-menu a {
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: var(--bg-cream);
+            text-decoration: none;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-dark);
+            text-align: center;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.4s var(--ease-kinetic);
+        }
+        .mobile-menu.active a { opacity: 1; transform: translateY(0); }
+        .mobile-menu.active a:nth-child(1) { transition-delay: 0.1s; }
+        .mobile-menu.active a:nth-child(2) { transition-delay: 0.15s; }
+        .mobile-menu.active a:nth-child(3) { transition-delay: 0.2s; }
+        .mobile-menu.active a:nth-child(4) { transition-delay: 0.25s; border-bottom: none; }
+        .mobile-menu a:hover { color: var(--gold); }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: var(--bg-dark);
+            color: var(--bg-cream);
+            padding: 40px 48px 60px;
+            position: relative;
+            overflow: hidden;
+            min-height: calc(100vh - var(--nav-height) - 40px);
+            display: flex;
+            align-items: center;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            right: -10%;
+            width: 60%;
+            height: 120%;
+            background: radial-gradient(ellipse at center, rgba(201, 168, 106, 0.08) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 1;
+        }
+        .hero-image-layer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 60%;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+            overflow: hidden;
+            display: flex;
+            align-items: stretch;
+        }
+        .hero-image-layer img {
+            height: 100%;
+            width: auto;
+            max-width: none;
+            object-fit: cover;
+            object-position: right center;
+            opacity: 0;
+            transform: translateX(50px);
+            animation: slideInFromRight 1.2s var(--ease-kinetic) 0.3s forwards;
+            filter: drop-shadow(-20px 20px 60px rgba(0, 0, 0, 0.5));
+            mask-image: linear-gradient(135deg, transparent 0%, transparent 25%, black 65%);
+            -webkit-mask-image: linear-gradient(135deg, transparent 0%, transparent 25%, black 65%);
+        }
+        @keyframes slideInFromRight {
+            to { opacity: 0.55; transform: translateX(0); }
+        }
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 3;
+        }
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1.25rem;
+        }
+        .section-label::before { content: ''; width: 24px; height: 1px; background: var(--gold); opacity: 1; }
+        .hero h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 3rem; font-weight: 500; }
+        .hero h1 em { font-style: italic; color: var(--gold-light); }
+        .hero-subtitle { font-size: 1rem; max-width: 450px; margin-bottom: 6rem; color: var(--text-muted); line-height: 1.6; }
+        .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+        .hero-microcopy { font-size: 0.75rem; color: var(--text-muted); font-style: italic; margin-top: 3rem; }
+
+        /* ===== BUTTONS ===== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: var(--radius-pill);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: all 0.3s var(--ease-kinetic);
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .btn-primary { background: var(--bg-cream); color: var(--bg-dark); }
+        .btn-primary:hover { background: var(--bg-white); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+        .btn-outline { background: transparent; color: var(--bg-cream); border: 1px solid rgba(244, 239, 233, 0.3); }
+        .btn-outline:hover { border-color: var(--bg-cream); background: rgba(244, 239, 233, 0.05); }
+        .btn-gold { background: var(--gold); color: var(--bg-dark); font-weight: 600; }
+        .btn-gold:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(201, 168, 106, 0.3); }
+
+        /* ===== MARQUEE ===== */
+        .marquee {
+            background: var(--bg-dark);
+            border-top: 1px solid var(--border-dark);
+            border-bottom: 1px solid var(--border-dark);
+            padding: 12px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        .marquee-track { display: inline-flex; animation: marquee 35s linear infinite; }
+        .marquee-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 20px;
+            padding: 0 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--bg-cream);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+        .marquee-item::before { content: '✦'; color: var(--gold); font-size: 0.6rem; }
+        @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+        /* ===== SECTIONS ===== */
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 48px; }
+        section { padding: 80px 0; }
+        section.alt-bg { background: var(--bg-cream-2); }
+        .section-header { max-width: 650px; margin-bottom: 2.5rem; }
+        h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+        h3 { font-size: 1.35rem; margin-bottom: 0.75rem; }
+        p { margin-bottom: 1.25rem; font-size: 1.1rem; color: var(--text-secondary); line-height: 1.7; }
+        strong { color: var(--text-primary); font-weight: 600; }
+
+        /* ===== REVEAL ANIMATIONS ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s var(--ease-kinetic), transform 0.8s var(--ease-kinetic);
+            will-change: opacity, transform;
+        }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-4 { transition-delay: 0.4s; }
+
+        .kinetic-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s var(--ease-kinetic), transform 0.8s var(--ease-kinetic);
+        }
+        .kinetic-reveal.visible { opacity: 1; transform: translateY(0); }
+        .kinetic-reveal.delay-1 { transition-delay: 0.1s; }
+        .kinetic-reveal.delay-2 { transition-delay: 0.2s; }
+        .kinetic-reveal.delay-3 { transition-delay: 0.3s; }
+        .kinetic-reveal.delay-4 { transition-delay: 0.4s; }
+
+        @media (max-width: 768px) { .reveal { transform: translateY(20px); } }
+
+        /* ===== CHECKLIST ===== */
+        .checklist-widget {
+            background: var(--bg-cream-2);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            border: 1px solid var(--border-cream);
+            position: relative;
+            transition: padding-bottom 0.5s var(--ease-kinetic);
+        }
+        
+            body.has-progress-indicator #steps .checklist-widget {
+            padding-bottom: 120px;
+        }
+
+        .checklist-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--border-cream);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .checklist-title { font-size: 1.5rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+        .checklist-subtitle { font-size: 0.9rem; color: var(--text-secondary); margin: 0; }
+
+        /* ===== FLOATING PROGRESS INDICATOR ===== */
+        .checklist-progress {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%) translateY(30px);
+            background: var(--bg-dark);
+            color: var(--gold);
+            border-radius: var(--radius-pill);
+            padding: 12px 28px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            z-index: 200;
+            box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s var(--ease-kinetic), 
+                        visibility 0.5s, 
+                        transform 0.5s var(--ease-kinetic);
+            pointer-events: none;
+            white-space: nowrap;
+        }
+        .checklist-progress.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+            pointer-events: auto;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 1.5rem;
+            margin: 0 -1rem;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: background 0.2s;
+            gap: 1rem;
+        }
+        .checklist-item:hover { background: rgba(255,255,255,0.5); }
+        .checklist-item:not(:last-child) { border-bottom: 1px solid var(--border-cream); }
+        .checklist-item input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--text-secondary);
+            border-radius: 50%;
+            margin: 0;
+            margin-top: 2px;
+            cursor: pointer;
+            position: relative;
+            flex-shrink: 0;
+            transition: all 0.3s var(--ease-kinetic);
+            background: transparent;
+        }
+        .checklist-item input[type="checkbox"]:checked { background: var(--bg-dark); border-color: var(--bg-dark); }
+        .checklist-item input[type="checkbox"]:checked::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 9px;
+            border: solid var(--gold);
+            border-width: 0 2px 2px 0;
+            transform: translate(-50%, -60%) rotate(45deg);
+        }
+        .checklist-item.checked { opacity: 0.5; }
+        .checklist-item.checked label { text-decoration: line-through; color: var(--text-secondary); }
+        .checklist-content { display: flex; align-items: baseline; gap: 0.75rem; flex: 1; }
+        .step-num { font-size: 0.85rem; font-weight: 600; color: var(--gold); flex-shrink: 0; line-height: 1; }
+        .checklist-label-wrapper { flex: 1; }
+        .checklist-item label { cursor: pointer; font-size: 1rem; line-height: 1.6; color: var(--text-primary); font-weight: 600; display: block; margin-bottom: 0.25rem; }
+        .checklist-item label strong { display: inline; margin-bottom: 0; }
+        .checklist-description { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; font-weight: 400; }
+
+        .checklist-complete {
+            display: none;
+            background: var(--bg-dark);
+            color: var(--bg-cream);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-top: 1.5rem;
+            text-align: center;
+            animation: fadeIn 0.5s var(--ease-kinetic);
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+        .checklist-complete h4 { font-size: 1.35rem; color: var(--gold); margin-bottom: 0.75rem; font-weight: 600; letter-spacing: -0.02em; }
+        .checklist-complete p { font-size: 0.95rem; margin-bottom: 1rem; color: var(--text-muted); }
+        .text-button { background: none; border: none; color: var(--text-secondary); text-decoration: underline; cursor: pointer; font-size: 0.8rem; padding: 0; margin-top: 1rem; }
+
+        /* ===== DELIVERABLES & ROLES ===== */
+        .deliverables-grid, .roles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+        .roles-grid { grid-template-columns: 1fr 1fr; }
+        .deliverable-card, .role-card {
+            padding: 32px 28px;
+            background: var(--bg-cream);
+            border: 1px solid var(--border-cream);
+            border-radius: var(--radius-lg);
+            transition: all 0.4s var(--ease-kinetic);
+        }
+        .role-card { padding: 36px 32px; }
+        .deliverable-card:hover, .role-card:hover { transform: translateY(-4px); border-color: var(--gold); box-shadow: 0 12px 30px rgba(15, 31, 26, 0.06); }
+        .deliverable-number { font-size: 3rem; font-weight: 500; color: var(--gold); line-height: 1; margin-bottom: 1rem; }
+        .deliverable-card h3, .role-card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .deliverable-card p { font-size: 0.95rem; margin: 0; color: var(--text-secondary); }
+        .role-contractor { border-top: 3px solid var(--success); }
+        .role-contractor h3 { color: #065f46; }
+        .role-carrier { border-top: 3px solid var(--warning); }
+        .role-carrier h3 { color: #92400e; }
+        .role-card ul { list-style: none; padding: 0; margin-top: 1rem; }
+        .role-card li { padding: 0.6rem 0 0.6rem 2rem; position: relative; font-size: 0.95rem; color: var(--text-secondary); }
+        .role-contractor li::before { content: '✓'; position: absolute; left: 0; color: var(--success); font-weight: 700; }
+        .role-carrier li::before { content: '•'; position: absolute; left: 0; color: var(--warning); font-weight: 700; font-size: 1.5rem; line-height: 1; top: 0.3rem; }
+        .role-disclaimer { text-align: center; margin-top: 2rem; font-size: 0.95rem; color: var(--text-secondary); font-style: italic; padding: 1.5rem; background: var(--bg-cream-2); border-radius: var(--radius); border: 1px solid var(--border-cream); }
+
+        /* ===== COMPLIANCE ===== */
+        .compliance-box { background: var(--warning-light); border: 1px solid var(--warning-border); border-radius: var(--radius-lg); padding: 40px; margin: 0; }
+        .compliance-box .section-label { color: var(--warning); }
+        .compliance-box .section-label::before { background: var(--warning); }
+        .compliance-box h3 { color: #92400e; margin-bottom: 0.75rem; font-size: 1.5rem; }
+        .compliance-box h4 { color: #92400e; margin-top: 1.5rem; margin-bottom: 0.5rem; font-size: 1.1rem; font-weight: 600; }
+        .compliance-box p { color: #78350f; margin-bottom: 0.75rem; font-size: 1rem; }
+        .compliance-box a { color: #92400e; text-decoration: none; font-weight: 600; border-bottom: 1px solid currentColor; transition: opacity 0.2s; }
+        .compliance-box a:hover { opacity: 0.7; }
+
+        /* ===== CTA & CUSTOMIZE ===== */
+        .cta-section { background: var(--bg-dark); color: var(--bg-cream); border-radius: var(--radius-lg); padding: 64px 48px; text-align: center; position: relative; overflow: hidden; margin: 0; }
+        .cta-section h2 { color: var(--bg-cream); margin-bottom: 1rem; }
+        .cta-section p { color: var(--text-muted); max-width: 550px; margin: 0 auto 1.75rem; font-size: 1.05rem; }
+        .customize-card { background: var(--bg-cream-2); border: 1px solid var(--border-cream); border-radius: var(--radius-lg); padding: 56px 48px; }
+        .check-list-premium { list-style: none; padding: 0; margin: 1.75rem 0; display: grid; gap: 0.75rem; }
+        .check-list-premium li { padding-left: 2rem; position: relative; color: var(--text-primary); font-weight: 500; font-size: 1rem; }
+        .check-list-premium li::before { content: '✓'; position: absolute; left: 0; color: var(--gold); font-weight: 700; font-size: 1.1rem; top: 2px; }
+
+        /* ===== FOOTER ===== */
+        footer { background: var(--bg-dark); color: var(--bg-cream); padding: 64px 48px 40px; text-align: center; }
+        .footer-brand { font-size: 1.5rem; font-weight: 600; color: var(--bg-cream); margin-bottom: 0.5rem; }
+        .footer-contacts { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 2rem; }
+        .footer-creator { margin: 2rem 0 1.5rem; }
+        .footer-creator p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+        .footer-creator strong { color: var(--bg-cream); }
+        .linkedin-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--bg-cream);
+            font-weight: 500;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid var(--border-dark);
+            border-radius: var(--radius-pill);
+            transition: all 0.3s var(--ease-kinetic);
+            background: transparent;
+            font-size: 0.85rem;
+        }
+        .linkedin-link:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+        .footer-disclaimer { margin-top: 2rem; font-size: 0.75rem; color: var(--text-muted); max-width: 650px; margin-left: auto; margin-right: auto; line-height: 1.6; }
+
+        /* ===== BACK TO TOP ===== */
+        .back-to-top {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            width: 44px;
+            height: 44px;
+            background: var(--bg-dark);
+            color: var(--gold);
+            border: 1px solid var(--border-dark);
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(16px);
+            transition: all 0.3s var(--ease-kinetic);
+            z-index: 100;
+        }
+        .back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+        .back-to-top:hover { background: var(--gold); color: var(--bg-dark); transform: translateY(-4px); }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1400px) { .hero-image-layer { width: 55%; } }
+        @media (max-width: 1200px) { .hero-image-layer { width: 50%; } }
+        @media (max-width: 968px) {
+            .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+            .hero-image-layer { width: 45%; }
+            .deliverables-grid, .roles-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .top-nav { padding: 0 24px; }
+            .nav-links { display: none; }
+            .menu-toggle { display: block; }
+            .hero { padding: 32px 24px 48px; min-height: calc(100vh - var(--nav-height) - 40px); }
+            .hero-image-layer { display: none; }
+            .container { padding: 0 24px; }
+            section { padding: 64px 0; }
+            .checklist-widget, .compliance-box, .customize-card { padding: 28px 24px; }
+            body.has-progress-indicator #steps .checklist-widget { padding-bottom: 100px; }
+            .cta-section { padding: 48px 24px; }
+            footer { padding: 64px 24px 32px; }
+            .back-to-top { bottom: 20px; right: 20px; width: 40px; height: 40px; }
+            .hero h1 { font-size: clamp(1.75rem, 7vw, 2.5rem); }
+            h2 { font-size: clamp(1.5rem, 5vw, 2rem); }
+            .mobile-menu a { font-size: 2rem; }
+            p { font-size: 1.05rem; }
+            .checklist-progress { bottom: 20px; padding: 10px 20px; font-size: 0.8rem; }
+        }
+        @media (max-width: 480px) {
+            .hero-actions { flex-direction: column; }
+            .hero-actions .btn { width: 100%; }
+            .checklist-header { flex-direction: column; }
+        }
+    </style>
+    <script>document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+    <aside class="demo-banner" role="note">
+        <strong>DEMONSTRATION PAGE</strong> · A professional Texas roofing sales-enablement concept
+    </aside>
+
+    <nav class="top-nav" aria-label="Main navigation">
+        <a href="#top" class="nav-logo"><span class="logo-texas">TEXAS</span> Roofing</a>
+        <div class="nav-links">
+            <a href="#steps">Next steps</a>
+            <a href="#roles">Clear roles</a>
+            <a href="#inspection">Inspection</a>
+            <a href="#demo" class="nav-cta">Customize this page</a>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+        <nav aria-label="Mobile navigation">
+            <a href="#steps" class="mobile-link">Next steps</a>
+            <a href="#roles" class="mobile-link">Clear roles</a>
+            <a href="#inspection" class="mobile-link">Inspection</a>
+            <a href="#demo" class="mobile-link">Customize this page</a>
+        </nav>
+    </div>
+
+    <main id="main">
+        <header class="hero" id="top">
+            <div class="hero-image-layer">
+                <img src="img/roof_hero.png" alt="Close-up of roofing shingles">
+            </div>
+            <div class="hero-inner">
+                <div>
+                    <div class="section-label kinetic-reveal delay-1">Texas storm damage guide</div>
+                    <h1 class="kinetic-reveal delay-2">Storm damage is stressful<br>What happens next <em>shouldn't be</em></h1>
+                    <p class="hero-subtitle kinetic-reveal delay-3">
+                        Start with a professional inspection, clear documentation, and a straightforward explanation of what your roofing contractor can help with - and what your insurance carrier decides.
+                    </p>
+                    <div class="hero-actions kinetic-reveal delay-4">
+                        <a href="#demo" class="btn btn-primary">See the page framework</a>
+                        <a href="#steps" class="btn btn-outline">View next steps</a>
+                    </div>
+                    <p class="hero-microcopy kinetic-reveal delay-4">Demonstration only.<br>A live version must reflect the contractor's actual process, service area, and verified credentials.</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span class="marquee-item">Clear process</span>
+                <span class="marquee-item">Documented conditions</span>
+                <span class="marquee-item">Defined boundaries</span>
+                <span class="marquee-item">Clear next steps</span>
+                <span class="marquee-item">Clear process</span>
+                <span class="marquee-item">Documented conditions</span>
+                <span class="marquee-item">Defined boundaries</span>
+                <span class="marquee-item">Clear next steps</span>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-label">The trust gap</div>
+                    <h2>"We work with insurance" is not an explanation</h2>
+                    <p class="reveal reveal-delay-1">Homeowners need to know what an inspection includes, what documentation they will receive, what their deductible means, and why a contractor's proposed scope can differ from a carrier's estimate. A professional service page makes those answers visible before the inspection.</p>
+                </div>
+            </div>
+        </section>
+
+                <section id="steps" class="alt-bg">
+            <div class="container">
+                <div class="checklist-widget reveal">
+                    <div class="checklist-header reveal reveal-delay-1">
+                        <div>
+                            <div class="checklist-title">Homeowner checklist</div>
+                            <p class="checklist-subtitle">Your immediate next steps. A calm, practical flow helps homeowners act safely without pretending that a contractor controls the insurance decision.</p>
+                        </div>
+                    </div>
+                    <div id="checklist">
+                        <div class="checklist-item reveal reveal-delay-1">
+                            <input type="checkbox" id="step1">
+                            <div class="checklist-content">
+                                <div class="checklist-label-wrapper">
+                                    <label for="step1"><strong>Document safely from the ground</strong></label>
+                                    <p class="checklist-description">If it is safe, take photos of visible exterior damage. Do not climb onto the roof.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checklist-item reveal reveal-delay-2">
+                            <input type="checkbox" id="step2">
+                            <div class="checklist-content">
+                                <div class="checklist-label-wrapper">
+                                    <label for="step2"><strong>Address immediate safety concerns</strong></label>
+                                    <p class="checklist-description">For an immediate safety risk, call 911 or the appropriate emergency service. For an active leak, take safe, reasonable steps to limit further damage and contact your carrier for guidance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checklist-item reveal reveal-delay-3">
+                            <input type="checkbox" id="step3">
+                            <div class="checklist-content">
+                                <div class="checklist-label-wrapper">
+                                    <label for="step3"><strong>Gather the basics</strong></label>
+                                    <p class="checklist-description">Have your policy information and recent storm details available for your conversations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checklist-item reveal reveal-delay-4">
+                            <input type="checkbox" id="step4">
+                            <div class="checklist-content">
+                                <div class="checklist-label-wrapper">
+                                    <label for="step4"><strong>Schedule a professional inspection</strong></label>
+                                    <p class="checklist-description">Document observable conditions and discuss the repair work your contractor recommends.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checklist-item reveal reveal-delay-4">
+                            <input type="checkbox" id="step5">
+                            <div class="checklist-content">
+                                <div class="checklist-label-wrapper">
+                                    <label for="step5"><strong>Contact your insurance carrier</strong></label>
+                                    <p class="checklist-description">Ask about reporting requirements, policy terms, and the claims process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="checklist-complete reveal" id="checklistComplete" role="status" aria-live="polite">
+                        <h4>You have the basics covered.</h4>
+                        <p>The next step is a professional inspection that gives you a clear record of observable conditions and a proposed repair scope.</p>
+                        <a href="#demo" class="btn btn-primary">See how this becomes a sales asset</a>
+                    </div>
+                    
+                    <div style="text-align: center;" class="reveal reveal-delay-2">
+                        <button type="button" id="clearChecklist" class="text-button">Clear saved progress</button>
+                    </div>
+                    <p style="font-size: 0.7rem; color: var(--text-secondary); margin-top: 0.75rem; text-align: center;" class="reveal reveal-delay-3">
+                        Checklist progress is saved only in this browser.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="inspection">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-label">Inspection deliverables</div>
+                    <h2>Make an invisible service feel concrete</h2>
+                    <p class="reveal reveal-delay-1">Instead of vague promises, the page explains what the homeowner can expect from the inspection.</p>
+                </div>
+                <div class="deliverables-grid">
+                    <div class="deliverable-card reveal reveal-delay-1">
+                        <div class="deliverable-number">01</div>
+                        <h3>Observable conditions</h3>
+                        <p>Photos of observable conditions in safely accessible areas, when applicable.</p>
+                    </div>
+                    <div class="deliverable-card reveal reveal-delay-2">
+                        <div class="deliverable-number">02</div>
+                        <h3>Measurements and scope</h3>
+                        <p>Measurements used to prepare the proposed scope of work.</p>
+                    </div>
+                    <div class="deliverable-card reveal reveal-delay-3">
+                        <div class="deliverable-number">03</div>
+                        <h3>Clear next steps</h3>
+                        <p>A straightforward explanation of the repair work recommended and what happens next.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roles" class="alt-bg">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="section-label">Clear boundaries</div>
+                    <h2>Two roles<br>One clearer customer experience</h2>
+                    <p class="reveal reveal-delay-1">Clarity prevents an estimator from improvising and gives the homeowner a reliable explanation to share with family or an insurance carrier.</p>
+                </div>
+                <div class="roles-grid">
+                    <div class="role-card role-contractor reveal">
+                        <h3>What the contractor can help with</h3>
+                        <ul>
+                            <li>Inspecting roof conditions</li>
+                            <li>Documenting observable damage</li>
+                            <li>Providing photos, measurements, and a proposed repair scope</li>
+                            <li>Explaining the work recommended</li>
+                            <li>Scheduling repairs after a signed agreement</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-carrier reveal reveal-delay-1">
+                        <h3>What the insurance carrier handles</h3>
+                        <ul>
+                            <li>Coverage decisions under the policy</li>
+                            <li>Claim review and payment decisions</li>
+                            <li>Policy terms, limits, and deductibles</li>
+                            <li>Its estimate and any approved claim scope</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="role-disclaimer reveal reveal-delay-2">A contractor can explain its proposed repair scope. The insurance carrier decides coverage under the policy.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="compliance-box reveal">
+                    <div class="section-label">Texas compliance</div>
+                    <h3>Trust grows when the page defines the line</h3>
+                    <p>Compliance should not feel like a legal warning at the bottom of a page. It should be part of the customer experience: plain language, right expectations, and a clear next step.</p>
+                    <h4>Your deductible</h4>
+                    <p>Your deductible is part of your insurance policy and remains your responsibility. Texas law does not allow contractors to offer to waive, rebate, or absorb a deductible.</p>
+                    <p style="margin-bottom: 0;">
+                        Questions about deductible, coverage, or a claim decision should go directly to the insurance carrier.
+                        <br><br>
+                        <a href="https://www.tdi.texas.gov/column/what-to-know-about-replacing-your-roof-with-insurance.html" target="_blank" rel="noopener noreferrer">
+                        Texas Department of Insurance guidance on insurance and your roof ↗
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="alt-bg">
+            <div class="container">
+                <div class="cta-section reveal">
+                    <h2>Built for follow-up</h2>
+                    <p>A page your estimator can send after the first call. Not another generic SEO page. A clear, on-brand resource that helps a homeowner arrive at the inspection with better questions and realistic expectations.</p>
+                    <div class="hero-actions" style="justify-content: center; margin-top: 1.5rem;">
+                        <a href="#demo" class="btn btn-primary">Customize this framework</a>
+                        <a href="#steps" class="btn btn-outline">Review the checklist</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo">
+            <div class="container">
+                <div class="customize-card reveal">
+                    <div class="section-label">Tailored customization</div>
+                    <h2>A tailored sales-enablement system</h2>
+                    <p>We build this page around a contractor's actual inspection process, service area, documentation standards, follow-up workflow, and approved messaging boundaries.</p>
+                    <ul class="check-list-premium">
+                        <li class="reveal reveal-delay-1">Built around the real inspection process</li>
+                        <li class="reveal reveal-delay-2">Local proof and verified credentials</li>
+                        <li class="reveal reveal-delay-3">Messaging ready for counsel review</li>
+                    </ul>
+                    <p class="reveal reveal-delay-2">We can also identify wording that should be reviewed by the client's legal counsel before publication.</p>
+                    <a href="mailto:bond@artian.co?subject=Texas%20Roofing%20Sales%20Enablement%20Page" class="btn btn-gold reveal reveal-delay-3">Ask about a custom build</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="reveal">
+            <div class="footer-brand"><span class="logo-texas">TEXAS</span> Roofing</div>
+            <p class="footer-contacts">[Verified phone] · [Verified email] · [Verified service area]</p>
+            
+            <div class="footer-creator">
+                <p>Prepared by <strong>Alexander Bond</strong></p>
+                <a href="https://www.linkedin.com/in/bondland/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    Connect on LinkedIn
+                </a>
+            </div>
+
+            <p class="footer-disclaimer">
+                Demonstration page only. A production page must reflect the contractor's actual services, service area, verified credentials, contracts, and approved compliance language. This page provides general information and is not legal or insurance advice. Coverage decisions are made by the insurance carrier under the policy.
+            </p>
+        </footer>
+    </main>
+
+    <!-- Floating Progress Indicator -->
+    <div class="checklist-progress" id="progressText" role="status" aria-live="polite">0% Complete</div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script>
+        // ===== MOBILE MENU =====
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function openMenu() {
+            menuToggle.classList.add('active');
+            mobileMenu.classList.add('active');
+            document.body.classList.add('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'true');
+        }
+
+        function closeMenu() {
+            menuToggle.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            document.body.classList.remove('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+        }
+
+        menuToggle.addEventListener('click', () => menuToggle.classList.contains('active') ? closeMenu() : openMenu());
+        mobileLinks.forEach(link => link.addEventListener('click', closeMenu));
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && mobileMenu.classList.contains('active')) closeMenu(); });
+
+        // ===== CHECKLIST =====
+        const STORAGE_PREFIX = 'roofGuide_';
+        const checkboxes = document.querySelectorAll('.checklist-item input[type="checkbox"]');
+        const progressText = document.getElementById('progressText');
+        const checklistComplete = document.getElementById('checklistComplete');
+        const clearButton = document.getElementById('clearChecklist');
+
+        function loadProgress() {
+            checkboxes.forEach(box => {
+                if (localStorage.getItem(STORAGE_PREFIX + box.id) === 'true') {
+                    box.checked = true;
+                    box.closest('.checklist-item').classList.add('checked');
+                }
+            });
+            updateProgress();
+        }
+
+        function updateProgress() {
+            let checkedCount = 0;
+            checkboxes.forEach(box => {
+                localStorage.setItem(STORAGE_PREFIX + box.id, box.checked);
+                if (box.checked) {
+                    box.closest('.checklist-item').classList.add('checked');
+                    checkedCount++;
+                } else {
+                    box.closest('.checklist-item').classList.remove('checked');
+                }
+            });
+            let percent = Math.round((checkedCount / checkboxes.length) * 100);
+            progressText.textContent = percent + '% Complete';
+            checklistComplete.style.display = percent === 100 ? 'block' : 'none';
+        }
+
+        checkboxes.forEach(box => box.addEventListener('change', updateProgress));
+        clearButton.addEventListener('click', () => {
+            checkboxes.forEach(box => {
+                box.checked = false;
+                localStorage.removeItem(STORAGE_PREFIX + box.id);
+                box.closest('.checklist-item').classList.remove('checked');
+            });
+            updateProgress();
+        });
+        loadProgress();
+
+        // ===== SCROLL ANIMATIONS =====
+        function initObserver(selector, threshold = 0.15, rootMargin = '0px 0px -50px 0px') {
+            if (!('IntersectionObserver' in window)) {
+                document.querySelectorAll(selector).forEach(el => el.classList.add('visible'));
+                return;
+            }
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold, rootMargin });
+
+            document.querySelectorAll(selector).forEach(el => observer.observe(el));
+        }
+
+        initObserver('.kinetic-reveal', 0.1);
+        initObserver('.reveal', 0.15);
+
+        // ===== FLOATING PROGRESS INDICATOR =====
+        const checklistSection = document.getElementById('steps');
+        const progressIndicator = document.getElementById('progressText');
+
+        if (checklistSection && progressIndicator) {
+            let lastVisibility = false;
+            
+            function updateProgressVisibility() {
+                const rect = checklistSection.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+                const showThreshold = windowHeight * 0.8;
+                const hideThreshold = windowHeight * 0.95;
+                const shouldShow = rect.top < showThreshold;
+                const shouldHide = rect.bottom < hideThreshold;
+                const isInViewport = shouldShow && !shouldHide;
+
+                if (isInViewport && !lastVisibility) {
+                    progressIndicator.classList.add('visible');
+                    document.body.classList.add('has-progress-indicator');
+                    lastVisibility = true;
+                } else if (!isInViewport && lastVisibility) {
+                    progressIndicator.classList.remove('visible');
+                    document.body.classList.remove('has-progress-indicator');
+                    lastVisibility = false;
+                }
+            }
+            
+            updateProgressVisibility();
+            
+            let ticking = false;
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    window.requestAnimationFrame(() => {
+                        updateProgressVisibility();
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            }, { passive: true });
+        }
+
+        // ===== BACK TO TOP =====
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            backToTopBtn.classList.toggle('visible', window.scrollY > 400);
+        }, { passive: true });
+        backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // ===== RESIZE HANDLER =====
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768 && mobileMenu.classList.contains('active')) closeMenu();
+        });
+    </script>
+</body>
+</html>
